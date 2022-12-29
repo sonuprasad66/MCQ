@@ -10,16 +10,14 @@
 // OUTPUT: "Javascript is love My";
 
 // 3.Reverse the provided string
-let str = "I love my work";
-let result = str.split("").reverse().join(" ");
-console.log(result);
-OUTPUT: " krow ym evol I";
+// let str = "I love my work";
+// let result = str.split("").reverse().join(" ");
+// console.log(result);
+// OUTPUT: " krow ym evol I";
 
 // 4.Remove the space from left and right side from the given string:
-// let str=’  abcd  ‘;
-
-// console.log( str.trim());
-
+let str = "  abcd  ";
+console.log(str.trim());
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
