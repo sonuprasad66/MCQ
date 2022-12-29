@@ -5,15 +5,15 @@
 // OUTPUT: ["Hello,How are you"];
 
 // 2.Reverse the words in the provided sentence:
-let abc = "My love is Javascript";
-console.log(abc.split(" ").reverse().join(" "));
-OUTPUT: "Javascript is love My";
+// let abc = "My love is Javascript";
+// console.log(abc.split(" ").reverse().join(" "));
+// OUTPUT: "Javascript is love My";
 
 // 3.Reverse the provided string
-// let str=’I love my work’;
-// let temp=str.split(”).reverse().join(”);
-// console.log(temp);
-// OUTPUT:krow ym evol I
+let str = "I love my work";
+let result = str.split("").reverse().join(" ");
+console.log(result);
+OUTPUT: " krow ym evol I";
 
 // 4.Remove the space from left and right side from the given string:
 // let str=’  abcd  ‘;
