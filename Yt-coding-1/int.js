@@ -16,14 +16,15 @@
 // OUTPUT: " krow ym evol I";
 
 // 4.Remove the space from left and right side from the given string:
-let str = "  abcd  ";
-console.log(str.trim());
+// let str = "  abcd  ";
+// console.log(str.trim());
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
-// let str=”Hello,How are you”;
-// console.log(str.substring(1,str.length))
-// OUTPUT:ello,How are you
+let str = "Hello,How are you";
+let result = str.substring(1, str.length);
+console.log(result);
+OUTPUT: "ello,How are you";
 
 // 6.Remove last character from the string
 // let str=”Hello,How are you”;
