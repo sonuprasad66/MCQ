@@ -27,15 +27,15 @@
 // OUTPUT: "ello,How are you";
 
 // 6.Remove last character from the string
-let str = "Hello,How are you";
-console.log(str.substring(0, str.length - 1));
-OUTPUT: " Hello,How are yo";
+// let str = "Hello,How are you";
+// console.log(str.substring(0, str.length - 1));
+// OUTPUT: " Hello,How are yo";
 
 // 7.Whenever we compare two blank arrays, what will be the output?
-// let c=[]
-// let d=[]
-// console.log(c==d)
-// OUTPUT:false
+let c = [];
+let d = [];
+console.log(c == d);
+OUTPUT: false;
 
 // 8.If we divide string by a number, what will be the output?
 // console.log(“abc”/2);
