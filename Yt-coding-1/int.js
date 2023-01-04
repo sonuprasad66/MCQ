@@ -49,16 +49,16 @@
 // OUTPUT: 20;
 
 // 10.Remove the duplicate elements from an array.
-const arr = [1, 2, 3, 4, 4, 5, 6];
-const mySet = [...new Set(arr)];
-console.log(mySet);
+// const arr = [1, 2, 3, 4, 4, 5, 6];
+// const mySet = [...new Set(arr)];
+// console.log(mySet);
 // OUTPUT:[1,2,3,4,5,6]
 
 // 11.Swap the values
-// let a=10;
-// let b=20;
-// [a,b]=[b,a]
-// console.log(a,b)
+let a = 10;
+let b = 20;
+[b, a] = [a, b];
+console.log(a, b);
 // OUTPUT:20 10
 
 // 12.Merge two objects.
