@@ -38,14 +38,15 @@
 // OUTPUT: false;
 
 // 8.If we divide string by a number, what will be the output?
-console.log("abc"/2);
-OUTPUT:NaN
+// console.log("abc"/2);
+// OUTPUT:NaN
 
 // 9.What will be the output?
-
-// let data= 10 – – 10
-// console.log(data)
-// OUTPUT:20
+let a = 10;
+let b = -10;
+let data = a - b;
+console.log(data);
+OUTPUT: 20;
 
 // 10.Remove the duplicate elements from an array.
 // const arr = [1, 2, 3, 4, 4, 5,6];
