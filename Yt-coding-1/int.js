@@ -55,35 +55,35 @@
 // OUTPUT:[1,2,3,4,5,6]
 
 // 11.Swap the values
-let a = 10;
-let b = 20;
-[b, a] = [a, b];
-console.log(a, b);
+// let a = 10;
+// let b = 20;
+// [b, a] = [a, b];
+// console.log(a, b);
 // OUTPUT:20 10
 
 // 12.Merge two objects.
-// let data={name:’Aditya’,age:29,skill:’JS’};
-// let info={name:’Adi’,city:”Pune”,mail:’aditya123@gmail.com’}
-// data={…data,…info}
-// console.log(data);
-// OUTPUT:{ name: ‘Adi’,
+let data = { name: "Aditya", age: 29, skill: "JS" };
+let info = { name: "Adi", city: "Pune", mail: "aditya123@gmail.com" };
+data = { ...data, ...info };
+console.log(data);
+// OUTPUT:{ name: ‘Adi",
 // age: 29,
-// skill: ‘JS’,
-// city: ‘Pune’,
-// mail: ‘aditya123@gmail.com’ }
+// skill: ‘JS",
+// city: ‘Pune",
+// mail: ‘aditya123@gmail.com" }
 
 // 13.How to prevent new properties from being added to an object
-// let person={name:’Saket’};
-// let abc={name:’Adi’}
+// let person={name:"Saket"};
+// let abc={name:"Adi"}
 // Object.seal(person);
 // Object.seal(abc);
-// person.name=’Aditya’;
+// person.name="Aditya";
 // abc.age=19
 // person.age=29;
 // console.log(person);
 // console.log(abc)
-// OUTPUT:{ name: ‘Aditya’ }
-//                 { name: ‘Adi’ }
+// OUTPUT:{ name: ‘Aditya" }
+//                 { name: ‘Adi" }
 
 // 14.Add element at first position
 // let data=[2,9,0,10]
@@ -100,7 +100,7 @@ console.log(a, b);
 
 // 16.What will be the output?
 // function getAge(){
-// ‘use strict’;
+// ‘use strict";
 // age=21;
 // console.log(age);
 // }
@@ -108,8 +108,8 @@ console.log(a, b);
 // OUTPUT: ReferenceError: age is not defined
 
 // 17.Guess the output.
-// console.log(typeof 3+4+’50’);
-// console.log(typeof (3+4+’50’));
+// console.log(typeof 3+4+"50");
+// console.log(typeof (3+4+"50"));
 // OUTPUT:number450
 //                 string
 
@@ -128,8 +128,8 @@ console.log(a, b);
 // OUTPUT:[]
 
 // 20.What will be the output?
-// console.log(‘A’-1);
-// console.log(2+’-2’+’2′);
+// console.log(‘A"-1);
+// console.log(2+"-2"+"2′);
 // OUTPUT:NaN
 //                2-22
 
@@ -140,11 +140,11 @@ console.log(a, b);
 // OUTPUT:false
 
 // 22.Remove the duplicacy of the objects in an array
-// const arr=[{id:1,name:’one’},
-// {id:2,name:’two’},
-// {id:1,name:’one’},
-// {id:2,name:’two’},
-// {id:3,name:’three’}];
+// const arr=[{id:1,name:"one"},
+// {id:2,name:"two"},
+// {id:1,name:"one"},
+// {id:2,name:"two"},
+// {id:3,name:"three"}];
 // const map = {};
 // const newArray = [];
 // arr.forEach(el => {
@@ -154,13 +154,13 @@ console.log(a, b);
 // }
 // });
 // console.log(newArray);
-// OUTPUT:[ { id: 1, name: ‘one’ },
-// { id: 2, name: ‘two’ },
-// { id: 3, name: ‘three’ } ]
+// OUTPUT:[ { id: 1, name: ‘one" },
+// { id: 2, name: ‘two" },
+// { id: 3, name: ‘three" } ]
 
-// 23.Input:name:”MyNameIsJohn”.Output:”My Name Is John”.How can be done?
-// var name=”MyNameIsJohn”
-// console.log(name.replace(/[A-Z]/g,’ $&’).trim())
+// 23.Input:name:"MyNameIsJohn".Output:"My Name Is John".How can be done?
+// var name="MyNameIsJohn"
+// console.log(name.replace(/[A-Z]/g," $&").trim())
 // Output:My Name Is John
 
 // 24.Sort the elements in ascending as well as descending order
