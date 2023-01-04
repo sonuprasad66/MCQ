@@ -42,16 +42,16 @@
 // OUTPUT:NaN
 
 // 9.What will be the output?
-let a = 10;
-let b = -10;
-let data = a - b;
-console.log(data);
-OUTPUT: 20;
+// let a = 10;
+// let b = -10;
+// let data = a - b;
+// console.log(data);
+// OUTPUT: 20;
 
 // 10.Remove the duplicate elements from an array.
-// const arr = [1, 2, 3, 4, 4, 5,6];
-// const mySet = […new Set(arr)];
-// console.log(mySet);
+const arr = [1, 2, 3, 4, 4, 5, 6];
+const mySet = [...new Set(arr)];
+console.log(mySet);
 // OUTPUT:[1,2,3,4,5,6]
 
 // 11.Swap the values
