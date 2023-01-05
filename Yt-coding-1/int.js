@@ -62,10 +62,10 @@
 // OUTPUT:20 10
 
 // 12.Merge two objects.
-let data = { name: "Aditya", age: 29, skill: "JS" };
-let info = { name: "Adi", city: "Pune", mail: "aditya123@gmail.com" };
-data = { ...data, ...info };
-console.log(data);
+// let data = { name: "Aditya", age: 29, skill: "JS" };
+// let info = { name: "Adi", city: "Pune", mail: "aditya123@gmail.com" };
+// data = { ...data, ...info };
+// console.log(data);
 // OUTPUT:{ name: ‘Adi",
 // age: 29,
 // skill: ‘JS",
@@ -73,15 +73,15 @@ console.log(data);
 // mail: ‘aditya123@gmail.com" }
 
 // 13.How to prevent new properties from being added to an object
-// let person={name:"Saket"};
-// let abc={name:"Adi"}
-// Object.seal(person);
-// Object.seal(abc);
-// person.name="Aditya";
-// abc.age=19
-// person.age=29;
-// console.log(person);
-// console.log(abc)
+let person = { name: "Saket" };
+let abc = { name: "Adi" };
+Object.seal(person);
+Object.seal(abc);
+person.name = "Aditya";
+abc.age = 19;
+person.age = 29;
+console.log(person);
+console.log(abc);
 // OUTPUT:{ name: ‘Aditya" }
 //                 { name: ‘Adi" }
 
