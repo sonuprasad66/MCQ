@@ -73,22 +73,22 @@
 // mail: ‘aditya123@gmail.com" }
 
 // 13.How to prevent new properties from being added to an object
-let person = { name: "Saket" };
-let abc = { name: "Adi" };
-Object.seal(person);
-Object.seal(abc);
-person.name = "Aditya";
-abc.age = 19;
-person.age = 29;
-console.log(person);
-console.log(abc);
+// let person = { name: "Saket" };
+// let abc = { name: "Adi" };
+// Object.seal(person);
+// Object.seal(abc);
+// person.name = "Aditya";
+// abc.age = 19;
+// person.age = 29;
+// console.log(person);
+// console.log(abc);
 // OUTPUT:{ name: ‘Aditya" }
 //                 { name: ‘Adi" }
 
 // 14.Add element at first position
-// let data=[2,9,0,10]
-// data.unshift(10)
-// console.log(data);
+let data = [2, 9, 0, 10];
+data.unshift(5);
+console.log(data);
 // OUTPUT:[10, 2, 9, 0, 10]
 
 // 15.Merge elements from 2 arrays into single array.
