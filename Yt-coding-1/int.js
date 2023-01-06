@@ -86,16 +86,16 @@
 //                 { name: ‘Adi" }
 
 // 14.Add element at first position
-let data = [2, 9, 0, 10];
-data.unshift(5);
-console.log(data);
+// let data = [2, 9, 0, 10];
+// data.unshift(5);
+// console.log(data);
 // OUTPUT:[10, 2, 9, 0, 10]
 
 // 15.Merge elements from 2 arrays into single array.
-// let a=[1,2,3,4];
-// let b=[2,3,5,6];
-// let c=[…a,…b];
-// console.log(c);
+let a = [1, 2, 3, 4];
+let b = [2, 3, 5, 6];
+let c = [...a, ...b];
+console.log(c);
 // OUTPUT:[1, 2, 3, 4, 2, 3, 5, 6]
 
 // 16.What will be the output?
