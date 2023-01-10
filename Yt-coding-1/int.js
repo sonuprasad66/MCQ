@@ -92,19 +92,19 @@
 // OUTPUT:[10, 2, 9, 0, 10]
 
 // 15.Merge elements from 2 arrays into single array.
-let a = [1, 2, 3, 4];
-let b = [2, 3, 5, 6];
-let c = [...a, ...b];
-console.log(c);
+// let a = [1, 2, 3, 4];
+// let b = [2, 3, 5, 6];
+// let c = [...a, ...b];
+// console.log(c);
 // OUTPUT:[1, 2, 3, 4, 2, 3, 5, 6]
 
 // 16.What will be the output?
-// function getAge(){
-// ‘use strict";
-// age=21;
-// console.log(age);
-// }
-// getAge();
+function getAge() {
+  "use strict";
+  age = 21;
+  console.log(age);
+}
+getAge();
 // OUTPUT: ReferenceError: age is not defined
 
 // 17.Guess the output.
