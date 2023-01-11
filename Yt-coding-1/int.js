@@ -99,17 +99,17 @@
 // OUTPUT:[1, 2, 3, 4, 2, 3, 5, 6]
 
 // 16.What will be the output?
-function getAge() {
-  "use strict";
-  age = 21;
-  console.log(age);
-}
-getAge();
+// function getAge() {
+//   "use strict";
+//   age = 21;
+//   console.log(age);
+// }
+// getAge();
 // OUTPUT: ReferenceError: age is not defined
 
 // 17.Guess the output.
-// console.log(typeof 3+4+"50");
-// console.log(typeof (3+4+"50"));
+console.log(typeof (3 + 4 + "50"));
+console.log(typeof (3 + 4 + "50"));
 // OUTPUT:number450
 //                 string
 
