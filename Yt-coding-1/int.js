@@ -108,17 +108,17 @@
 // OUTPUT: ReferenceError: age is not defined
 
 // 17.Guess the output.
-console.log(typeof (3 + 4 + "50"));
-console.log(typeof (3 + 4 + "50"));
+// console.log(typeof (3 + 4 + "50"));
+// console.log(typeof (3 + 4 + "50"));
 // OUTPUT:number450
 //                 string
 
 // 18.Guess the output
-// (()=>{
-// let x=(y=10);//x is block scope
-// })();
-// console.log(x);
-// console.log(typeof x)
+(() => {
+  let x = (y = 10); //x is block scope
+})();
+console.log(x);
+console.log(typeof x);
 // OUTPUT: ReferenceError:x is not defined
 
 // 19.Empty an array in Javascript
