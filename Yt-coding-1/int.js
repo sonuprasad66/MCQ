@@ -114,17 +114,17 @@
 //                 string
 
 // 18.Guess the output
-(() => {
-  let x = (y = 10); //x is block scope
-})();
-console.log(x);
-console.log(typeof x);
+// (() => {
+//   let x = (y = 10); //x is block scope
+// })();
+// console.log(x);
+// console.log(typeof x);
 // OUTPUT: ReferenceError:x is not defined
 
 // 19.Empty an array in Javascript
-// var a=[2,3,4,5];
-// var a=[];
-// console.log(a);
+var a = [2, 3, 4, 5];
+var a = [];
+console.log(a);
 // OUTPUT:[]
 
 // 20.What will be the output?
