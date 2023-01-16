@@ -143,26 +143,28 @@
 // 2-22
 
 // 21.How do you compare two objects?
-var abc = { hasUser: false, isUser: false };
-var xyz = { isUser: false, hasUser: false };
-console.log(JSON.stringify(abc) === JSON.stringify(xyz));
+// var abc = { hasUser: false, isUser: false };
+// var xyz = { isUser: false, hasUser: false };
+// console.log(JSON.stringify(abc) === JSON.stringify(xyz));
 // OUTPUT:false
 
 // 22.Remove the duplicacy of the objects in an array
-// const arr=[{id:1,name:"one"},
-// {id:2,name:"two"},
-// {id:1,name:"one"},
-// {id:2,name:"two"},
-// {id:3,name:"three"}];
-// const map = {};
-// const newArray = [];
-// arr.forEach(el => {
-// if(!map[JSON.stringify(el)]){
-// map[JSON.stringify(el)] = true;
-// newArray.push(el);
-// }
-// });
-// console.log(newArray);
+const arr = [
+  { id: 1, name: "one" },
+  { id: 2, name: "two" },
+  { id: 1, name: "one" },
+  { id: 2, name: "two" },
+  { id: 3, name: "three" },
+];
+const map = {};
+const newArray = [];
+arr.forEach((el) => {
+  if (!map[JSON.stringify(el)]) {
+    map[JSON.stringify(el)] = true;
+    newArray.push(el);
+  }
+});
+console.log(newArray);
 // OUTPUT:[ { id: 1, name: ‘one" },
 // { id: 2, name: ‘two" },
 // { id: 3, name: ‘three" } ]
