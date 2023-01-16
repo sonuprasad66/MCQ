@@ -149,22 +149,23 @@
 // OUTPUT:false
 
 // 22.Remove the duplicacy of the objects in an array
-const arr = [
-  { id: 1, name: "one" },
-  { id: 2, name: "two" },
-  { id: 1, name: "one" },
-  { id: 2, name: "two" },
-  { id: 3, name: "three" },
-];
-const map = {};
-const newArray = [];
-arr.forEach((el) => {
-  if (!map[JSON.stringify(el)]) {
-    map[JSON.stringify(el)] = true;
-    newArray.push(el);
-  }
-});
-console.log(newArray);
+// const arr = [
+//   { id: 1, name: "one" },
+//   { id: 2, name: "two" },
+//   { id: 1, name: "one" },
+// { id: 2, name: "two" },
+//   { id: 3, name: "three" },
+// ];
+// const map = {};
+// const newArray = [];
+// arr.forEach((el) => {
+//   if (!map[JSON.stringify(el)]) {
+//     map[JSON.stringify(el)] = true;
+//     newArray.push(el);
+//   }
+// });
+// console.log(newArray);
+
 // OUTPUT:[ { id: 1, name: ‘one" },
 // { id: 2, name: ‘two" },
 // { id: 3, name: ‘three" } ]
