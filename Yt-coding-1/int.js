@@ -1,4 +1,13 @@
 // 25+ Javascript coding interview questions
+
+// 0. Swap the value
+var a = 10;
+var b = 20;
+var temp = a;
+a = b;
+b = temp;
+console.log(a, b);
+
 // 1.Convert string into an array.
 // let str = "Hello,How are you";
 // console.log(str.split());
@@ -122,9 +131,9 @@
 // OUTPUT: ReferenceError:x is not defined
 
 // 19.Empty an array in Javascript
-var a = [2, 3, 4, 5];
-var a = [];
-console.log(a);
+// var a = [2, 3, 4, 5];
+// var a = [];
+// console.log(a);
 // OUTPUT:[]
 
 // 20.What will be the output?
