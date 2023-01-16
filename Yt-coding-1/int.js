@@ -137,15 +137,15 @@
 // OUTPUT:[]
 
 // 20.What will be the output?
-console.log("A" - 1);
-console.log(2 + "-2" + "2");
+// console.log("A" - 1);
+// console.log(2 + "-2" + "2");
 // OUTPUT:NaN
 // 2-22
 
 // 21.How do you compare two objects?
-// var abc={hasUser:false,isUser:false}
-// var xyz={isUser:false,hasUser:false}
-// console.log(JSON.stringify(abc) === JSON.stringify(xyz));
+var abc = { hasUser: false, isUser: false };
+var xyz = { isUser: false, hasUser: false };
+console.log(JSON.stringify(abc) === JSON.stringify(xyz));
 // OUTPUT:false
 
 // 22.Remove the duplicacy of the objects in an array
