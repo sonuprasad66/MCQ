@@ -131,16 +131,16 @@
 // OUTPUT: ReferenceError:x is not defined
 
 // 19.Empty an array in Javascript
-var a = [2, 3, 4, 5];
-var a = [];
-console.log(a);
+// var a = [2, 3, 4, 5];
+// var a = [];
+// console.log(a);
 // OUTPUT:[]
 
 // 20.What will be the output?
-// console.log(‘A"-1);
-// console.log(2+"-2"+"2′);
+console.log("A" - 1);
+console.log(2 + "-2" + "2");
 // OUTPUT:NaN
-//                2-22
+// 2-22
 
 // 21.How do you compare two objects?
 // var abc={hasUser:false,isUser:false}
