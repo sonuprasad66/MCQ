@@ -171,8 +171,8 @@
 // { id: 3, name: ‘three" } ]
 
 // 23.Input:name:"MyNameIsJohn".Output:"My Name Is John".How can be done?
-// var name="MyNameIsJohn"
-// console.log(name.replace(/[A-Z]/g," $&").trim())
+var name = "MyNameIsJohn";
+console.log(name.replace(/[A-Z]/g, " $&").trim());
 // Output:My Name Is John
 
 // 24.Sort the elements in ascending as well as descending order
