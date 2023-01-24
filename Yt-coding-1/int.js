@@ -176,9 +176,9 @@
 // Output:My Name Is John
 
 // 24.Sort the elements in ascending as well as descending order
-const arr = [1, 2, 3, 88, 5, 7];
-console.log(arr.sort((first, second) => first - second));
-console.log(arr.sort((first, second) => second - first));
+// const arr = [1, 2, 3, 88, 5, 7];
+// console.log(arr.sort((first, second) => first - second));
+// console.log(arr.sort((first, second) => second - first));
 // OUTPUT:
 
 // [ 1, 2, 3, 5, 7, 88 ] //Ascending order
@@ -186,43 +186,34 @@ console.log(arr.sort((first, second) => second - first));
 // [ 88, 7, 5, 3, 2, 1 ] //Descending order
 
 // 25.Find the most frequent element in an array
-// function most_frequent(array){
-// let mf=arr[0],maxCount=0,i,j;
-// let len=arr.length;
-
-// for(i=0;i<len;i++){
-// let count=0;
-// for(j=i+1;j<len;j++){
-// if(arr[i]==arr[j]){
-// count++;
-// }
-// }
-// if(maxCount<count){
-
-// maxCount=count; mf=arr[i];
-
-// }
-
-// }
-
-// return mf
-
-// }
-
-//  arr=[1,3,3,3,4,4,4,5]
-
-//  console.log(most_frequent(arr));
-
+function most_frequent(arr) {
+  let mf = arr[0],
+    maxCount = 0,
+    i,
+    j;
+  let len = arr.length;
+  for (i = 0; i < len; i++) {
+    let count = 0;
+    for (j = i + 1; j < len; j++) {
+      if (arr[i] == arr[j]) {
+        count++;
+      }
+    }
+    if (maxCount < count) {
+      maxCount = count;
+      mf = arr[i];
+    }
+  }
+  return mf;
+}
+arr = [1, 3, 3, 3, 4, 4, 4, 5];
+console.log(most_frequent(arr));
 //  OUTPUT:3
 
 // 26.Merge elements of two arrays alternatively.
-
 // const arr1 = [1,2,3,4,5];
-
 // const arr2 = [6,7,8,9,10];
-
 // const mergeAlernatively = (arr1, arr2) => {
-
 // const res = [];j=0;k=0;
 
 // for(let i = 0; i < arr1.length + arr2.length; i++){
