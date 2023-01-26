@@ -186,28 +186,28 @@
 // [ 88, 7, 5, 3, 2, 1 ] //Descending order
 
 // 25.Find the most frequent element in an array
-function most_frequent(arr) {
-  let mf = arr[0],
-    maxCount = 0,
-    i,
-    j;
-  let len = arr.length;
-  for (i = 0; i < len; i++) {
-    let count = 0;
-    for (j = i + 1; j < len; j++) {
-      if (arr[i] == arr[j]) {
-        count++;
-      }
-    }
-    if (maxCount < count) {
-      maxCount = count;
-      mf = arr[i];
-    }
-  }
-  return mf;
-}
-arr = [1, 3, 3, 3, 4, 4, 4, 5];
-console.log(most_frequent(arr));
+// function most_frequent(arr) {
+//   let mf = arr[0],
+//     maxCount = 0,
+//     i,
+//     j;
+//   let len = arr.length;
+//   for (i = 0; i < len; i++) {
+//     let count = 0;
+//     for (j = i + 1; j < len; j++) {
+//       if (arr[i] == arr[j]) {
+//         count++;
+//       }
+//     }
+//     if (maxCount < count) {
+//       maxCount = count;
+//       mf = arr[i];
+//     }
+//   }
+//   return mf;
+// }
+// arr = [1, 3, 3, 3, 4, 4, 4, 5];
+// console.log(most_frequent(arr));
 //  OUTPUT:3
 
 // 26.Merge elements of two arrays alternatively.
