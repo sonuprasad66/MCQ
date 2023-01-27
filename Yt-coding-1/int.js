@@ -1,12 +1,12 @@
 // 25+ Javascript coding interview questions
 
 // 0. Swap the value
-// var a = 10;
-// var b = 20;
-// var temp = a;
-// a = b;
-// b = temp;
-// console.log(a, b);
+var a = 10;
+var b = 20;
+var temp = a;
+a = b;
+b = temp;
+console.log(a, b);
 
 // 1.Convert string into an array.
 // let str = "Hello,How are you";
