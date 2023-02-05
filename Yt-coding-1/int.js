@@ -14,8 +14,8 @@
 // OUTPUT: ["Hello,How are you"];
 
 // 2.Reverse the words in the provided sentence:
-// let abc = "My love is Javascript";
-// console.log(abc.split(" ").reverse().join(" "));
+let abc = "My love is Javascript";
+console.log(abc.split(" ").reverse().join(" "));
 // OUTPUT: "Javascript is love My";
 
 // 3.Reverse the provided string
