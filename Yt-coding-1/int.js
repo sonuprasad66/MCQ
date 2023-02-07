@@ -19,9 +19,9 @@
 // OUTPUT: "Javascript is love My";
 
 // 3.Reverse the provided string
-// let str = "I love my work";
-// let result = str.split("").reverse().join(" ");
-// console.log(result);
+let str = "I love my work";
+let result = str.split("").reverse().join(" ");
+console.log(result);
 // OUTPUT: " krow ym evol I";
 
 // 4.Remove the space from left and right side from the given string:
