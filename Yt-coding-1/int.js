@@ -25,8 +25,8 @@
 // OUTPUT: " krow ym evol I";
 
 // 4.Remove the space from left and right side from the given string:
-// let str = "  abcd  ";
-// console.log(str.trim());
+let str = "  abcd  ";
+console.log(str.trim());
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
@@ -41,9 +41,9 @@
 // OUTPUT: " Hello,How are yo";
 
 // 7.Whenever we compare two blank arrays, what will be the output?
-let c = [];
-let d = [];
-console.log(c == d);
+// let c = [];
+// let d = [];
+// console.log(c == d);
 // OUTPUT: false;
 
 // 8.If we divide string by a number, what will be the output?
