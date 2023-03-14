@@ -41,9 +41,9 @@ console.log(str.trim());
 // OUTPUT: " Hello,How are yo";
 
 // 7.Whenever we compare two blank arrays, what will be the output?
-let c = [];
-let d = [];
-console.log(c == d);
+// let c = [];
+// let d = [];
+// console.log(c == d);
 // OUTPUT: false;
 
 // 8.If we divide string by a number, what will be the output?
