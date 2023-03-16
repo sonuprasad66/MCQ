@@ -47,7 +47,7 @@ console.log(str.trim());
 // OUTPUT: false;
 
 // 8.If we divide string by a number, what will be the output?
-console.log("abc"/2);
+// console.log("abc"/2);
 // OUTPUT:NaN
 
 // 9.What will be the output?
