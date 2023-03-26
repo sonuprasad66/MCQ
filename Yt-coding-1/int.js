@@ -30,14 +30,14 @@
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
-let str = "Hello,How are you";
-let result = str.substring(1, str.length);
-console.log(result);
+// let str = "Hello,How are you";
+// let result = str.substring(1, str.length);
+// console.log(result);
 // OUTPUT: "ello,How are you";
 
 // 6.Remove last character from the string
-let str = "Hello,How are you";
-console.log(str.substring(0, str.length - 1));
+// let str = "Hello,How are you";
+// console.log(str.substring(0, str.length - 1));
 // OUTPUT: " Hello,How are yo";
 
 // 7.Whenever we compare two blank arrays, what will be the output?
