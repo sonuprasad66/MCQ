@@ -30,7 +30,7 @@
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
-let str = "Hello,How are you";
+// let str = "Hello,How are you";
 // let result = str.substring(1, str.length);
 // console.log(result);
 // OUTPUT: "ello,How are you";
