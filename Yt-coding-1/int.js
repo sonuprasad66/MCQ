@@ -19,7 +19,7 @@
 // OUTPUT: "Javascript is love My";
 
 // 3.Reverse the provided string
-let str = "I love my work";
+// let str = "I love my work";
 // let result = str.split("").reverse().join(" ");
 // console.log(result);
 // OUTPUT: " krow ym evol I";
@@ -30,7 +30,7 @@ let str = "I love my work";
 // OUTPUT:abcd
 
 // 5.Remove first character from the string
-// let str = "Hello,How are you";
+let str = "Hello,How are you";
 let result = str.substring(1, str.length);
 console.log(result);
 // OUTPUT: "ello,How are you";
