@@ -27,7 +27,7 @@
 // 4.Remove the space from left and right side from the given string:
 let str = "  abcd  ";
 console.log(str.trim());
-// OUTPUT:abcd
+OUTPUT: abcd;
 
 // 5.Remove first character from the string
 // let str = "Hello,How are you";
